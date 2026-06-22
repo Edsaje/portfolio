@@ -1,0 +1,29 @@
+@import "stylecommun.css";
+
+header {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 6vw;
+    margin-top: 6vh;
+}
+
+.navclic {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}
+
+.clic {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+@import "stylecommun.css";
+
+h1 {
+    visibility: hidden;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloc > a{
+    display: flex;
+     background-color: #2CAEB0;
+}
+
+.bloc:nth-child(even) > a{
+     background-color: #36D6D9;
+     flex-direction: row-reverse;
+}
+
+.bloc:nth-child(1) > a{
+     background-color: red;
+}
+
+.bloc:nth-child(2) > a{
+     background-color: green;
+}
+
+
+a {
+    display: block;
+}
+
+
+
+.photo-profil2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}

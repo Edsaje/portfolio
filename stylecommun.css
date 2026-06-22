@@ -1,0 +1,63 @@
+:root {
+    --backgroundcolor: linear-gradient(#40F8FC, #185D5E);
+    --backgroundfincolor: #185D5E;
+    --linkcolor: ;
+    --linkfincolor: hsl(181, 97%, 62%);
+    --textcolor1: ;
+    --tableevencolor: #3FFCC0;
+    --tableoddcolor: #3FFC7F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: var(--backgroundcolor);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.photo-profil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.fin {
+    list-style: none;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--backgroundfincolor);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.fin li a {
+    color: var(--linkfincolor);
+}
+
+.fin {
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .fin {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+
