@@ -33,15 +33,6 @@ a {
     display: block;
 }
 
-
-
-.photo-profil2 {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
 a {
     text-decoration: none;
 }
